@@ -15,7 +15,7 @@ public class Main {
     private static final Logger log = LoggerFactory.getLogger(Main.class);
 
     public static void main(String[] args) throws Exception {
-        final Server server = new Server(System.getenv("PORT"));
+        final Server server = new Server(Integer.parseInt(System.getenv("PORT")));
         final ServletContextHandler servletContextHandler = new ServletContextHandler();
         servletContextHandler.setContextPath("/");
         server.setHandler(servletContextHandler);
