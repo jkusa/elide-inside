@@ -52,6 +52,6 @@ public class ElideResourceConfig extends ResourceConfig {
                 bind(new Elide(new Slf4jLogger(), new PersistenceManager(entityManagerFactory)))
                         .to(Elide.class).named("elide");
             }
-        })
+        });
     }
 }

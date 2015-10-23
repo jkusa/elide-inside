@@ -6,18 +6,15 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>elide-persistence-mysql-example</artifactId>
+    <artifactId>elide-heroku-example</artifactId>
+    <groupId>com.yahoo.elide</groupId>
+    <version>1.0.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>Elide Persistence MySQL Example</name>
-    <description>Elide example using javax.persistence and MySQL</description>
-    <parent>
-        <groupId>com.yahoo.elide</groupId>
-        <artifactId>elide-example-parent-pom</artifactId>
-        <version>1.0.0.2-SNAPSHOT</version>
-    </parent>
+    <name>Elide Heroku Example</name>
+    <description>Elide example Heroku and Postgresql</description>
 
     <properties>
-        <version.elide>${project.parent.version}</version.elide>
+        <version.elide>1.0.0.1</version.elide>
         <version.jetty>9.3.5.v20151012</version.jetty>
         <version.jersey>2.19</version.jersey>
         <version.slf4j>1.7.12</version.slf4j>
