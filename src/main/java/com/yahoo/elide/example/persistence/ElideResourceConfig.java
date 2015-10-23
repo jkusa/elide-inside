@@ -48,7 +48,7 @@ public class ElideResourceConfig extends ResourceConfig {
                 }
 
                 EntityManagerFactory entityManagerFactory =
-                        Persistence.createEntityManagerFactory("com.yahoo.elide.example");
+                        Persistence.createEntityManagerFactory("com.yahoo.elide.example", configOverrides);
                 bind(new Elide(new Slf4jLogger(), new PersistenceManager(entityManagerFactory)))
                         .to(Elide.class).named("elide");
             }
