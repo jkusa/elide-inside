@@ -1,0 +1,6 @@
+{
+  "name": "Elide on Heroku",
+  "description": "Elided deployed to Heroku.",
+  "image": "heroku/java",
+  "addons": [ "heroku-postgresql" ]
+}
