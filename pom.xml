@@ -32,9 +32,16 @@
             <artifactId>elide-core</artifactId>
             <version>${version.elide}</version>
         </dependency>
+
         <dependency>
             <groupId>com.yahoo.elide</groupId>
-            <artifactId>elide-dbmanager-hibernate5</artifactId>
+            <artifactId>elide-datastore-jpa</artifactId>
+            <version>${elide.version}</version>
+        </dependency>
+      
+        <dependency>
+            <groupId>com.yahoo.elide</groupId>
+            <artifactId>elide-annotations</artifactId>
             <version>${version.elide}</version>
         </dependency>
 
