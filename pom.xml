@@ -14,7 +14,7 @@
     <description>Elide example Heroku and Postgresql</description>
 
     <properties>
-        <version.elide>1.0.0.1</version.elide>
+        <version.elide>4.5.15</version.elide>
         <version.jetty>9.3.5.v20151012</version.jetty>
         <version.jersey>2.19</version.jersey>
         <version.slf4j>1.7.12</version.slf4j>
